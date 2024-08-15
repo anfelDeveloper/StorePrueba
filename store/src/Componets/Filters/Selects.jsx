@@ -1,4 +1,4 @@
-function Selects({ filter, instructions, valueOne,valuetwo, valueThree, valueFour,onChange }) {
+function Selects({ filter, instructions, valueOne,valueTwo, valueThree, valueFour,onChange }) {
   return (
     <div className="p-2 sm:p-2 ">
       <select
@@ -10,7 +10,7 @@ function Selects({ filter, instructions, valueOne,valuetwo, valueThree, valueFou
       >
         <option value="">{instructions}</option>
         <option value={valueOne}>{valueOne}</option>
-        <option value={valuetwo}>{valuetwo} </option>
+        <option value={valueTwo}>{valueTwo} </option>
         <option value={valueThree}>{valueThree}</option>
         <option value={valueFour}>{valueFour}</option>
       </select>

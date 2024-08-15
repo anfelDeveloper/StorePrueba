@@ -10,20 +10,28 @@ function CardLayout() {
   const [filteredCards, setFilteredCards] = useState([]);
   const context = useContext(CardContext);
 
+  // Fetch cards from the API
   async function getCards() {
-    const resultdo = await axios.get(cardInformation);
-    setCard(resultdo.data);
-    setFilteredCards(resultdo.data);
+    try {
+      const result = await axios.get(cardInformation);
+      setCard(result.data);
+      setFilteredCards(result.data);
+    } catch (error) {
+      console.error("Error fetching cards:", error);
+    }
   }
 
+  // Filter cards by price range
   function filterByRange(cards, min, max) {
-    return cards.filter((card) => card.price > min && card.price < max);
+    return cards.filter((card) => card.price >= min && card.price <= max);
   }
 
+  // Filter cards by category
   function filterByCategory(cards, category) {
     return cards.filter((card) => card.category === category);
   }
 
+  // Sort cards by price
   function sortCards(cards, order) {
     return cards.sort((a, b) => {
       if (order === 'Menor precio') {
@@ -36,17 +44,26 @@ function CardLayout() {
     });
   }
 
+  // Filter cards by availability
+  function filterByAvailability(cards, availability) {
+    if (availability === "Disponible") {
+      return cards.filter((card) => card.inStock === true);
+    } else if (availability === "No disponible") {
+      return cards.filter((card) => card.inStock === false);
+    } else {
+      return cards; // "Todos" or any other value
+    }
+  }
+
+  // Apply filters and sorting
   useEffect(() => {
     async function applyFiltersAndSort() {
-      // Fetch the cards if not already fetched
       if (getCard.length === 0) {
         await getCards();
       }
       
-      // Start with the original card list
       let result = [...getCard];
 
-      // Apply filters
       if (context.rangePrice) {
         const priceRanges = {
           '': [0, Infinity],
@@ -63,16 +80,19 @@ function CardLayout() {
         result = filterByCategory(result, context.category);
       }
 
-      // Apply sorting
       if (context.sortOrder) {
         result = sortCards(result, context.sortOrder);
+      }
+
+      if (context.isAvailable !== null) {
+        result = filterByAvailability(result, context.isAvailable);
       }
 
       setFilteredCards(result);
     }
 
     applyFiltersAndSort();
-  }, [context.rangePrice, context.category, context.sortOrder, getCard]);
+  }, [context.rangePrice, context.category, context.sortOrder, context.isAvailable, getCard]);
 
   return (
     <div className="p-4 mt-4">

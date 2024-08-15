@@ -5,7 +5,7 @@
     "descripcio": "El cuero auténtico presenta arrugas e imperfecciones naturales, por lo que cada pieza es maravillosamente única.",
     "price": 65,
     "category": "Billeteras",
-    "inStock":true,
+    "inStock":false,
     "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt8e450dc0b6f3c87e/60dbb4b0a8fb870f8831e749/2_287.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
   },
   {
@@ -14,7 +14,7 @@
     "descripcio": "Fabricada en piel auténtica de alta calidad con el logotipo de la marca discretamente grabado en la esquina inferior.",
     "price": 60,
     "category": "Billeteras",
-    "inStock":false,
+    "inStock":true,
     "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blteda1c255e8161330/60dbbae515da443b102d59ab/2_288.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
   },
   {
@@ -68,7 +68,7 @@
     "descripcio": "La paja ligera mantiene la cabeza fresca y el ala en ángulo evita que el sol te moleste en los ojos.",
     "price": 175,
     "category": "Sombreros",
-    "inStock":false,
+    "inStock":true,
     "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blteecaeeca3d9aadad/60dc0ad296e07e0f6e5582f5/Hat_16-1_copy_3.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
   },
   {
@@ -182,7 +182,7 @@
     "id": 21,
     "name":"Reloj con media esfera de acero inoxidable",
     "descripcio": "Su robusta y angulosa caja de acero quirúrgico alberga un fiable movimiento japonés Miyota. El doble cierre desplegable de mariposa oculto cierra la correa escamada de ancho completo.",
-    "price": 155,
+    "price":  155,
     "category": "Relojes",
     "inStock":false,
     "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt161de2517f3b512f/638724bef33ebf101ddad4d9/1-1hok.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
