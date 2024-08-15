@@ -1,0 +1,193 @@
+{
+  "card":[{
+    "id": 1,
+    "name":"Billetera cuero negra",
+    "descripcio": "El cuero auténtico presenta arrugas e imperfecciones naturales, por lo que cada pieza es maravillosamente única.",
+    "price": 65,
+    "category": "Billeteras",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt8e450dc0b6f3c87e/60dbb4b0a8fb870f8831e749/2_287.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 2,
+    "name":"Cartera ergonómica de piel marrón",
+    "descripcio": "Fabricada en piel auténtica de alta calidad con el logotipo de la marca discretamente grabado en la esquina inferior.",
+    "price": 60,
+    "category": "Billeteras",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blteda1c255e8161330/60dbbae515da443b102d59ab/2_288.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 3,
+    "name":"Cartera de piel marrón con bloqueo",
+    "descripcio": "Aquí tienes una cartera bifold con suficientes actualizaciones para mantenerla interesante y servir para más de un propósito.",
+    "price": 35,
+    "category": "Billeteras",
+    "inStock":true,
+    "imagenUrl":"https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/bltd470d05fdbbbcbf0/60dc0c03454f930f33f6c344/tanlonnie1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 4,
+    "name":"Cartera de piel negra y azul",
+    "descripcio": "La piel auténtica ganará carácter natural con el uso diario y creará una pieza única que se ha adaptado a tu forma de llevarla y usarla.",
+    "price": 59,
+    "category": "Billeteras",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt261059311490f469/60dc0d455775160f9f23c383/lindblack1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 5,
+    "name":"Tarjetero de piel tostada",
+    "descripcio": "Está fabricado en piel auténtica con pequeñas arrugas que dan a cada pieza un aire único.También tiene un elegante mecanismo de cremallera.",
+    "price": 65,
+    "category": "Billeteras",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt37ba75f8db12a948/60dbb9f1e1461d39eb8be1a7/12_37_1_16_2_77.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 6,
+    "name":"Gorra casual gris",
+    "descripcio": "Este gorro, confeccionado en algodón orgánico, da calor sin sofocar y mantiene a raya el picor de frente.",
+    "price": 35,
+    "category": "Sombreros",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt48b59cf19b5932ee/60dc06becbc6070f5c3dc4d8/13-1_copy_14-1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 7,
+    "name":"Gorra plana de lino a cuadros",
+    "descripcio": "Esta gorra plana para hombre presenta un exterior de mezcla de poliéster a cuadros que resiste fácilmente el desgaste.",
+    "price": 59,
+    "category": "Sombreros",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blta19d7b2efff65efc/60dc0375bbd30c0f67e3499f/4-1_483.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 8,
+    "name":"Sombrero de Paja Ecuatoriana",
+    "descripcio": "La paja ligera mantiene la cabeza fresca y el ala en ángulo evita que el sol te moleste en los ojos.",
+    "price": 175,
+    "category": "Sombreros",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blteecaeeca3d9aadad/60dc0ad296e07e0f6e5582f5/Hat_16-1_copy_3.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 9,
+    "name":"Gorro azul marino de algodón",
+    "descripcio": "Presume del atractivo vintage de los sombreros de cubo para hombre con este diseño Lacuna, perfecto para protegerte del resplandor del sol u ocultar un mal día de peinado.",
+    "price": 29,
+    "category": "Sombreros",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt32044d8c5742c9e2/648187cea4ecd7633ad014a7/28705.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 10,
+    "name":"Gorro de punto de canalé grueso",
+    "descripcio": "Este gorro verde oliva está fabricado con una mezcla de materiales que da como resultado un estilo grueso que mantiene el calor sin atrapar el sudor.",
+    "price": 45,
+    "category": "Sombreros",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt2e8cd5e12e128c05/60dc0c9a8491e60f790d4fcd/30-33137d1d0f310062165db4b95901f4617.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 11,
+    "name":"Cinturón de cuero Auto Lock",
+    "descripcio": "Este cinturón está confeccionado en atractivo cuero negro y se completa con una hebilla de metal pulido que se abrocha con seguridad y añade un toque moderno a tu look.",
+    "price": 59,
+    "category": "Cinturones",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt6ff2ebf5d253a48a/60dc102e47339c0fc01e3d5c/Bosswik_2-1_copy_11.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 12,
+    "name":"Cinturón de piel de ante arena",
+    "descripcio": "Este cinturón  para hombre es resistente y flexible, por lo que ofrece más comodidad que la mayoría de los cinturones de piel, y su hebilla es pesada y sólida.",
+    "price": 59,
+    "category": "Cinturones",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/bltb9f0705c141f46be/6422a788f660eb75b72114fc/3-1-lastholde.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 13,
+    "name":"Cinturón elástico de lona azul oscuro",
+    "descripcio": "Incorpora una elegante hebilla metálica curvada. Ribeteado con piel sintética en contraste para mayor durabilidad.",
+    "price": 29,
+    "category": "Cinturones",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt3541b4e782253fea/60dbb20b90ef0d39a2fe6b4e/8043-01.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 14,
+    "name":"Cinturón elástico de lona roja",
+    "descripcio": "Llamativamente elegante pero sorprendentemente cómodo, este cinturón rojo intenso añadirá un toque de fuerza a cualquier atuendo.",
+    "price": 29,
+    "category": "Cinturones",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt914e5e246bfae404/60dbb17915da443b102d363b/8038-01_1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 15,
+    "name":"Tirantes anchos convertibles rojo verdadero",
+    "descripcio": "Estos favorecedores tirantes rojos dan un toque de color sin llamar la atención. El color rojo intenso es masculino y un gran complemento para tu traje oscuro.",
+    "price": 29,
+    "category": "Cinturones",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt71de66c9dfaf15db/60dc28645c97640f944477c3/13-1116762aab6b24768ca09a82b8bd6b1c8.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 16,
+    "name":"Cinturón elástico de invierno",
+    "descripcio": "Y lo más importante: es cómodo gracias a su construcción elástica. El cinturón es flexible y se estira para ajustarse cómodamente a la cintura.",
+    "price": 59,
+    "category": "Cinturones",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/bltc9244d2b1f461d4c/63d93942f5cafd36fddce99e/2-2023-01-04_11-02-54_b_r20_s4_kaiss.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 17,
+    "name":"Reloj de acero inoxidable ",
+    "descripcio": "Su característica esfera recortada y el fondo de caja de exposición le ofrecen una tentadora visión del corazón del reloj.",
+    "price": 260,
+    "category": "Relojes",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt8d70a3d96d3d97d2/61f284c5c6553a3f642b2ff8/9-1.f36fa176292f914214710435a94cc095.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 18,
+    "name":"Reloj esqueleto de acero azul",
+    "descripcio": "La esfera expuesta y el fondo transparente permiten observar el mecanismo interior. Incluye un cristal de zafiro, casi tan duro como el diamante y prácticamente a prueba de arañazos.",
+    "price": 230,
+    "category": "Relojes",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt0f54fd214ae2fd34/63bed9ed72302d165520798d/28255-1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 19,
+    "name":" Reloj de vestir minimalista ",
+    "descripcio": "Este impresionante reloj para hombre, diseñado por la danesa Seizmont, le garantiza no sólo que llegará a tiempo, sino también con un estilo supremo.",
+    "price": 200,
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt5ba87f69f0b9af2d/6135d48e6effd47345b33d4e/arthur_moment-20968-40mm-.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 20,
+    "name":"Reloj cuadrado plateado y gris",
+    "descripcio": "Legibilidad mejorada gracias al revestimiento antirreflectante de su cristal y al brillo en la oscuridad de las agujas y los índices. Lee la esfera cómodamente sin importar la hora.",
+    "price": 165,
+    "category": "Relojes",
+    "inStock":true,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt0082a5a199640048/64df4cba9d5572d57fc1dbe5/3-1klajs-e_1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  },
+  {
+    "id": 21,
+    "name":"Reloj con media esfera de acero inoxidable",
+    "descripcio": "Su robusta y angulosa caja de acero quirúrgico alberga un fiable movimiento japonés Miyota. El doble cierre desplegable de mariposa oculto cierra la correa escamada de ancho completo.",
+    "price": 155,
+    "category": "Relojes",
+    "inStock":false,
+    "imagenUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt161de2517f3b512f/638724bef33ebf101ddad4d9/1-1hok.jpg?format=pjpg&auto=webp&quality=75%2C90&width=640"
+  }
+]
+}
+
+
