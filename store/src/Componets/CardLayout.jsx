@@ -10,28 +10,20 @@ function CardLayout() {
   const [filteredCards, setFilteredCards] = useState([]);
   const context = useContext(CardContext);
 
-  // Fetch cards from the API
   async function getCards() {
-    try {
-      const result = await axios.get(cardInformation);
-      setCard(result.data);
-      setFilteredCards(result.data);
-    } catch (error) {
-      console.error("Error fetching cards:", error);
-    }
+    const result = await axios.get(cardInformation);
+    setCard(result.data);
+    setFilteredCards(result.data);
   }
 
-  // Filter cards by price range
   function filterByRange(cards, min, max) {
     return cards.filter((card) => card.price >= min && card.price <= max);
   }
 
-  // Filter cards by category
   function filterByCategory(cards, category) {
     return cards.filter((card) => card.category === category);
   }
 
-  // Sort cards by price
   function sortCards(cards, order) {
     return cards.sort((a, b) => {
       if (order === 'Menor precio') {
@@ -44,18 +36,16 @@ function CardLayout() {
     });
   }
 
-  // Filter cards by availability
   function filterByAvailability(cards, availability) {
     if (availability === "Disponible") {
       return cards.filter((card) => card.inStock === true);
     } else if (availability === "No disponible") {
       return cards.filter((card) => card.inStock === false);
     } else {
-      return cards; // "Todos" or any other value
+      return cards;
     }
   }
 
-  // Apply filters and sorting
   useEffect(() => {
     async function applyFiltersAndSort() {
       if (getCard.length === 0) {

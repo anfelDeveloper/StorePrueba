@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import SearchCard from "./SearchCard";
 import Selects from "./Selects";
 import { CardContext } from "../../Context/CardContext";
 
@@ -23,41 +22,42 @@ function Filters() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-evenly m-5 lg:m-10">
-      <SearchCard />
-      
+    <div className="flex flex-col lg:flex-row lg:justify-around m-5 lg:m-10 space-y-4 lg:space-y-0">
       <Selects
-        instructions={"Seleccione el precio"}
-        valueOne={"$10 - $50"}
-        valueTwo={"$51 - $100"}
-        valueThree={"$101 - $200"}
-        valueFour={"mayor a $200"}
+        filter="price"
+        instructions="Seleccione el precio"
+        valueOne="$10 - $50"
+        valueTwo="$51 - $100"
+        valueThree="$101 - $200"
+        valueFour="mayor a $200"
         onChange={handlePriceChange}
       />
 
       <Selects
-        instructions={"Seleccione la categoría"}
-        valueOne={"Billeteras"}
-        valueTwo={"Sombreros"}
-        valueThree={"Relojes"}
-        valueFour={"Cinturones"}
+        filter="category"
+        instructions="Seleccione la categoría"
+        valueOne="Billeteras"
+        valueTwo="Sombreros"
+        valueThree="Relojes"
+        valueFour="Cinturones"
         onChange={handleCategoryChange}
       />
 
       <Selects
-        instructions={"Ordenar por precio"}
-        valueOne={"Menor precio"}
-        valueTwo={"Mayor precio"}
+        filter="sort"
+        instructions="Ordenar por precio"
+        valueOne="Menor precio"
+        valueTwo="Mayor precio"
         onChange={handleSortChange}
       />
 
       <Selects
-       instructions={"Todos"}
-       valueOne={"Disponible"}
-       valueTwo={"No disponible"}
-       onChange={handleAvailableChange}
+        filter="availability"
+        instructions="Todos"
+        valueOne="Disponible"
+        valueTwo="No disponible"
+        onChange={handleAvailableChange}
       />
-
     </div>
   );
 }
