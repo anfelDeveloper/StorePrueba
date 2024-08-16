@@ -1,4 +1,4 @@
-# Descripción del Proyecto
+# 🛒Descripción del Proyecto
 
 **ShopNow** es una tienda en línea especializada en accesorios para hombres. En ShopNow, podrás encontrar una variedad de productos como:
 
