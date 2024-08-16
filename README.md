@@ -7,7 +7,7 @@
 - Sombreros
 - Billeteras
 
-Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos que estás buscando.
+Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos que deseas.
 
 # 🛠️ Iniciar el Proyecto
 
