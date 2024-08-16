@@ -31,15 +31,15 @@ Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos 
 
   En la segunda terminal, sigue estos pasos:
 
-  1. Navega a la carpeta `store`:
-     ```bash
-     cd StorePrueba/store
+ 1. Navega a la carpeta `store`:
+   ```bash
+   cd StorePrueba/store
 
   2. Instala las dependencias:
    ```bash
    npm install
 
-  3.Inicia el servidor frontend:**
+  3.Inicia el servidor frontend:
    ```bash
    npm run dev
 
