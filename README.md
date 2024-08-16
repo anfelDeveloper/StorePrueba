@@ -56,7 +56,11 @@ Para el backend, opté por usar un archivo JSON como base de datos. Aproveché A
 
 ## 🔍 Filtro
 
-Utilicé un único componente con diferentes props para personalizar las características individuales de cada filtro.
+Para gestionar los filtros en la aplicación, implementé un único componente que utiliza diferentes `props` para personalizar las características de cada filtro. Esta estrategia permite:
+
+- **Reutilización del Código**: Al centralizar la lógica del filtro en un solo componente, se evita la duplicación de código.
+- **Flexibilidad**: Los diferentes `props` permiten ajustar las características del filtro según sea necesario, haciendo el componente más versátil.
+- **Mantenimiento Sencillo**: Al tener un solo componente para los filtros, es más fácil realizar cambios y mantener el código.
 
 ## 🌍 Contexto
 
