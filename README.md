@@ -20,11 +20,11 @@ Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos 
   En la primera terminal, sigue estos pasos:
 
   1. Navega a la carpeta `back-Store`:
-       ```bash
+ ```bash
      cd StorePrueba/back-Store
    
   2. Ejecuta el servidor backend:
-       ```bash
+  ```bash
      npm run json
 
    ## 🌐 Iniciar el Servidor Frontend
