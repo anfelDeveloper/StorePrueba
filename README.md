@@ -20,11 +20,11 @@ Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos 
   En la primera terminal, sigue estos pasos:
 
   1. Navega a la carpeta `back-Store`:
-     ```bash
+       ```bash
      cd StorePrueba/back-Store
    
   2. Ejecuta el servidor backend:
-     ```bash
+       ```bash
      npm run json
 
    ## 🌐 Iniciar el Servidor Frontend
@@ -36,14 +36,13 @@ Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos 
      cd StorePrueba/store
 
   2. Instala las dependencias:
-    ```bash
-    npm install
+   ```bash
+   npm install
 
-  3.Inicia el servidor frontend:
-    ```bash
-    npm run dev
+  3.Inicia el servidor frontend:**
+   ```bash
+   npm run dev
 
-   
  # 🔧 Decisiones Técnicas
 
 ## 🗄️ Back-end
@@ -60,7 +59,10 @@ Además, ShopNow cuenta con filtros que facilitan la búsqueda de los productos 
 
 ## 👨‍💻 Front-end
 
-  Para el front-end, todo está inicializado en el componente `App`. También creé un layout para las cartas, lo que asegura que mantengan un diseño consistente.
+- **Inicialización**: Todo está configurado en el componente `App`.
+- **Layout**: Se creó un layout para las cartas para asegurar un diseño consistente.
+- **Estilos**: Todos los estilos están creados con Tailwind CSS.
+
 
 
 
